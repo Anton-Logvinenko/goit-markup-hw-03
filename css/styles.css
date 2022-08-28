@@ -35,6 +35,11 @@ p {
   padding: 0;
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
   width: 1200px;
@@ -192,7 +197,7 @@ header {
 /* Чим ми займаємося */
 
 .section-work {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 .list-work {
   display: flex;
@@ -218,7 +223,6 @@ header {
 }
 .card-team {
   background-color: #ffffff;
-  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -226,10 +230,13 @@ header {
   display: flex;
   gap: 30px;
 }
+.box-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .title-name {
-  margin-top: 30px;
-
   font-weight: 500;
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -237,8 +244,6 @@ header {
 }
 
 .subtitle {
-  margin-top: 10px;
-
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-txt-color);
@@ -294,9 +299,6 @@ header {
   margin-left: 30px;
 }
 
-.card-potfolio > img {
-  display: block;
-}
 .title-card {
   font-size: 18px;
   line-height: 2;
